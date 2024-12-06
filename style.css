@@ -13,7 +13,7 @@
 }
 
 #content {
-    background: #2c302c;
+    background-color: cadetblue;
     padding: 20px;
     border-radius: 10px;
 }
@@ -30,7 +30,7 @@
 }
 
 #backspace, #clear {
-    background-color: rgb(237, 89, 30);
+    background-color:red;
     color: white;
 }
 body
@@ -55,4 +55,14 @@ form #output input {
     text-align: right;
     flex: 1;
     font-size: 25px;
+}
+input
+{
+    background-color: white;
+    color: black;
+}
+#res
+{
+    background-color: black;
+    color: whitesmoke;
 }
