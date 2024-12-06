@@ -1,3 +1,5 @@
+let r=document.getElementById('res');
+r.value='0';
 function Solve(val) {
     var v = document.getElementById('res');
     v.value += val;
@@ -15,7 +17,7 @@ function Result() {
 
 function Clear() {
     var inp = document.getElementById('res');
-    inp.value = '';
+    inp.value = '0';
 }
 
 function Back() {
